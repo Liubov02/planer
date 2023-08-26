@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    background-color: #9eb8cf9f;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.todo-container {
+    width: 80%;
+    height: 60%;
+    padding: 50px;
+    background-color: blue;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container input{
+    width: calc(100% - 80px);
+    height: 30px;
+    outline-color: #fff;
+    border-radius: 5px;
+}
+
+.input-container button {
+    background-color: red;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.todo-list {
+    list-style-type: none;
+}
+
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* float: left; */
+}
+
+.button {
+    border: none;    
+    border-radius: 5PX;
+    background-color: #fff;
+    cursor: pointer;
+    float: right;
+}
+
+.task-done {
+    text-decoration: line-through; /* Викреслений текст */
+    color: red; /* Колір для виконаного завдання */
+}
